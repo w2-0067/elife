@@ -1,0 +1,66 @@
+.mainmenu,
+.submenu{
+  background-color: #c5a176;
+  width: 100%;
+}
+.mainmenu-conteiner{
+  display: flex;
+  flex-direction: row;
+}
+.nav1,
+.nav2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mainmenu-conteiner,
+.nav2{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav1{
+  width: 55%;
+}
+.nav1 li,
+.nav2 li{
+  list-style: none;
+}
+.nav1 li a,
+.nav2 li a{
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-top: 24px;
+  padding-bottom: 19px;
+  border-bottom: 5px solid transparent; 
+}
+.nav1 li a:hover,
+.nav2 li a:hover{
+  border-bottom: 5px solid #fdb302; 
+}
+.mainmenu_sub-list-item {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.mainmenu_sub-list-item a {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-left: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-left: 1px dotted #fff;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.mainmenu_sub-list-item a::before{
+  content: "";
+  height: 20px;
+  width: 30px;
+  display: block;
+  background: url(../images/icon-mail.png) no-repeat;
+}

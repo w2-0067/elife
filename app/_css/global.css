@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+div{
+  box-sizing: border-box;
+}
+/* TYPO */
+body,button{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+p, span{
+  color: #3f3f3f;
+  font-size: 18px;
+  font-weight: 300;  
+}
+a{
+  color: #3b3b3a;
+  text-decoration: none;
+}
+
+/* TYPO END */
+/* GRID */
+
+.container{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* GRID END */
+/* ELEM */
+.btn {
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 28px 68px 28px 28px;
+  border: 1px solid currentColor;
+}
+.btn:active,
+.btn:hover{
+  background-color: #00c0ff;
+  border: 1px solid #00c0ff;
+  color: #fff;
+}

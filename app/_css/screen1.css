@@ -1,0 +1,30 @@
+.screen1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.slogan1 h1{
+  font-size: 37px;
+  font-weight: 700;
+  color: #3f3f3f;
+  text-transform: uppercase;
+}
+.yellow{
+  color: #fdb302;
+  font-size: 37px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.lite{
+  font-weight: 400;
+  font-size: 30px;
+  color: #3f3f3f;
+  text-transform: uppercase;
+}
+button#btn_1{
+  background:url(../images/icon-calc.png) 160px center no-repeat, #fdb302;
+}
+button#btn_1:hover,
+button#btn_1:active{
+  background:url(../images/icon-calc.png) 160px center no-repeat, #00c0ff;
+}

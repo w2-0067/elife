@@ -1,0 +1,28 @@
+.flex{
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: space-between;
+}
+.header {
+  height: 150px;
+}
+.header_logo{
+  margin-top: 47px;
+}
+.header_text{
+  margin-top: 70px;
+}
+.header_contact{
+  margin-top: 57px;   
+}
+.header_contact a{
+  display: block;
+  font-weight: 700;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+.header_contact span{
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+}
