@@ -1,0 +1,104 @@
+.affects_the_price{
+  height: 868px;
+  background: url(../images/affects_the_price/bg.jpg) center no-repeat;
+  padding-top: 80px;
+  position: relative;
+}
+.right-text-block {
+  position: absolute;
+  top: 300px;
+  right: 400px;
+}
+.right-text-block h3{
+  font-size: 24px;
+  font-weight: 400;
+  color: #3f3f3f;
+  text-transform: uppercase;
+}
+.right-text-block p{
+  position: relative;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+.right-text-block p::before{
+  position: absolute;
+  left: 0;
+  top: 1px;
+  content: "•";
+  color: #00c0ff;
+}
+.plus-point{
+  height: 23px;
+  width: 23px;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: url(../images/affects_the_price/icon-plus.png) left center no-repeat;
+
+}
+.plus-point:hover{
+  background: url(../images/affects_the_price/icon-plus.png) right center no-repeat;
+}
+.plus-text {
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 14px 18px;
+  width: 306px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  transform: translateX(-45%);
+  margin-top: 20px;
+  transition: all 0.275s ease-in;
+  display: block;
+}
+.plus-text::before {
+  content: "";
+  border: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+  display: block;
+  position: absolute;
+  top: -20px;
+  left: 156px;
+ 
+}
+.plus-point:hover + span.plus-text,
+span.plus-text.active-text{
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+.plus-point-wrap {
+  position: absolute;
+  z-index: 1;
+}
+div#plus1 {
+  top: 330px;
+  left: 660px;
+
+}
+div#plus2 {
+  top: 470px;
+  left: 780px;
+
+}
+div#plus3 {
+  top: 525px;
+  left: 465px;
+
+}
+#plus4 {
+  top: 570px;
+  left: 680px;
+ 
+}
+#plus5 {
+  top: 610px;
+  left: 882px;
+ 
+}
+#plus6 {
+  top: 650px;
+  left: 1070px;
+  
+}

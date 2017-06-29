@@ -24,6 +24,10 @@ a{
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to top, #3f3f3f, #656565), linear-gradient(#3f3f3f, #3f3f3f);
 }
 /* TYPO END */
 /* GRID */
