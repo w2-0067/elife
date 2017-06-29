@@ -1,0 +1,19 @@
+.order-list{
+  display: flex;
+
+}
+.order-card{
+  padding: 17px;
+  border: 1px solid #d5d5d5;
+}
+.order-card__name{
+  padding: 40px;
+  font-size: 24px;
+  color: #444;
+  font-weight: 300;
+}
+.order-card__cost{
+  font-weight: 300;
+  font-size: 18px;
+  color: #444;
+}

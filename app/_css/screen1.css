@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  background: url(../images/screen1.jpg) no-repeat;
 }
 .slogan1 h1{
   font-size: 37px;
@@ -21,10 +22,32 @@
   color: #3f3f3f;
   text-transform: uppercase;
 }
-button#btn_1{
-  background:url(../images/icon-calc.png) 160px center no-repeat, #fdb302;
+button#btn_1 {
+  background: url(../images/icon-calc.png) 166px center no-repeat, #fdb302;
+  margin-left: 105px;
+  margin-right: 25px;
 }
 button#btn_1:hover,
 button#btn_1:active{
-  background:url(../images/icon-calc.png) 160px center no-repeat, #00c0ff;
+  background:url(../images/icon-calc.png) 166px center no-repeat, #00c0ff;
+}
+button#btn_2 {
+  background: url(../images/icon-mailto.png) 166px center no-repeat, transparent;
+  border: 1px solid #3f3f3f;
+  color: #3f3f3f;
+}
+button#btn_2:hover,
+button#btn_2:active{
+  background:url(../images/icon-mailto2.png) 166px center no-repeat, #00c0ff;
+  border: 1px solid #00c0ff;
+  color: #fff;
+}
+.mouse{
+  margin: auto;
+  width: 27px;
+  margin-top: 98px;
+  margin-bottom: 55px;
+}
+.slogan1 h1 {
+  margin-bottom: 68px;
 }

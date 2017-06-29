@@ -1,3 +1,56 @@
+.cat_mini{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 75px;
+  padding-bottom: 60px;
+}
+.cat_mini__item{
+
+}
+.cat_mini__item span{
+  display: block;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #3f3f3f;
+  text-align: center;
+}
+.cat__info{
+  background-color: #c5a175;
+  padding: 20px;
+  width: 970px;
+  margin-right: auto;
+  margin-left: auto;  
+}
+.cat__info p{
+  text-align: center;
+  color: #fff;
+}
+.advantages__heading{
+  margin-top: 95px;
+}
+.advantages__list{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 70px;
+}
+.advantages__list__item{
+  width: calc(100%/3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.advantages__list__item span{
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 35px;
+  color: #3f3f3f;
+}
+span.strong{
+  text-transform: uppercase;
+  font-weight: 700;
+  
+}
 *{
   padding: 0;
   margin: 0;
@@ -18,7 +71,13 @@ a{
   color: #3b3b3a;
   text-decoration: none;
 }
-
+.heading_h2{
+  font-size: 24px;
+  color: #3f3f3f;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
 /* TYPO END */
 /* GRID */
 
@@ -34,8 +93,11 @@ a{
   font-size: 15px;
   color: #fff;
   text-transform: uppercase;
-  padding: 28px 68px 28px 28px;
+  padding-right: 44px;
   border: 1px solid currentColor;
+  width: 230px;
+  height: 70px;
+  line-height: 0;
 }
 .btn:active,
 .btn:hover{
@@ -137,10 +199,33 @@ a{
   display: block;
   background: url(../images/icon-mail.png) no-repeat;
 }
+.mainmenu--hidden{
+  display: none;
+}
+.order-list{
+  display: flex;
+
+}
+.order-card{
+  padding: 17px;
+  border: 1px solid #d5d5d5;
+}
+.order-card__name{
+  padding: 40px;
+  font-size: 24px;
+  color: #444;
+  font-weight: 300;
+}
+.order-card__cost{
+  font-weight: 300;
+  font-size: 18px;
+  color: #444;
+}
 .screen1{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  background: url(../images/screen1.jpg) no-repeat;
 }
 .slogan1 h1{
   font-size: 37px;
@@ -160,10 +245,32 @@ a{
   color: #3f3f3f;
   text-transform: uppercase;
 }
-button#btn_1{
-  background:url(../images/icon-calc.png) 160px center no-repeat, #fdb302;
+button#btn_1 {
+  background: url(../images/icon-calc.png) 166px center no-repeat, #fdb302;
+  margin-left: 105px;
+  margin-right: 25px;
 }
 button#btn_1:hover,
 button#btn_1:active{
-  background:url(../images/icon-calc.png) 160px center no-repeat, #00c0ff;
+  background:url(../images/icon-calc.png) 166px center no-repeat, #00c0ff;
+}
+button#btn_2 {
+  background: url(../images/icon-mailto.png) 166px center no-repeat, transparent;
+  border: 1px solid #3f3f3f;
+  color: #3f3f3f;
+}
+button#btn_2:hover,
+button#btn_2:active{
+  background:url(../images/icon-mailto2.png) 166px center no-repeat, #00c0ff;
+  border: 1px solid #00c0ff;
+  color: #fff;
+}
+.mouse{
+  margin: auto;
+  width: 27px;
+  margin-top: 98px;
+  margin-bottom: 55px;
+}
+.slogan1 h1 {
+  margin-bottom: 68px;
 }
