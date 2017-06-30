@@ -1,0 +1,17 @@
+.fittings{
+  padding: 95px 0 115px;
+  background: url(../images/fittings/bg.jpg) center no-repeat;
+}
+.fittings-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fittings h2{
+  margin-bottom: 80px;
+}
+.fittings-list--item p{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}

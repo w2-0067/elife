@@ -1,0 +1,26 @@
+.sockets{
+  padding: 110px 0 50px;
+}
+.after-blue{
+  text-align: center;
+  display: block;
+  color: #00c0ff;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.sockets img{
+  margin: 75px 0 50px;
+}
+.sockets button{
+  margin: 0 auto;
+  display: block;
+
+  background: url(../images/sockets/icon-eye.png) 166px center no-repeat, #00c0ff;
+  border: 1px solid #00c0ff;
+  color: #fff;
+}
+.sockets button:hover{
+  background: url(../images/sockets/icon-eye.png) 166px center no-repeat, #fdb302;
+  border: 1px solid #fdb302;
+  color: #fff;
+}

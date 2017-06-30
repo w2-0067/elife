@@ -1,0 +1,30 @@
+.features{
+  padding: 90px 0 100px;
+}
+.features h2{
+  margin-bottom: 60px;
+}
+.features-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.features-list--item{
+  display: flex;
+  margin-bottom: 25px;
+}
+.features-text{
+  width: 350px;
+  margin-left: 20px;
+}
+.features-text h3{
+  margin-bottom: 35px;
+  font-size: 21px;
+  font-weight: 400;
+  color: #3f3f3f;
+}
+.features-text p{
+  color: #3f3f3f;
+}

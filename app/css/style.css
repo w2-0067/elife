@@ -155,6 +155,53 @@ div#plus3 {
   left: 1070px;
   
 }
+.features{
+  padding: 90px 0 100px;
+}
+.features h2{
+  margin-bottom: 60px;
+}
+.features-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.features-list--item{
+  display: flex;
+  margin-bottom: 25px;
+}
+.features-text{
+  width: 350px;
+  margin-left: 20px;
+}
+.features-text h3{
+  margin-bottom: 35px;
+  font-size: 21px;
+  font-weight: 400;
+  color: #3f3f3f;
+}
+.features-text p{
+  color: #3f3f3f;
+}
+.fittings{
+  padding: 95px 0 115px;
+  background: url(../images/fittings/bg.jpg) center no-repeat;
+}
+.fittings-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fittings h2{
+  margin-bottom: 80px;
+}
+.fittings-list--item p{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}
 *{
   padding: 0;
   margin: 0;
@@ -309,6 +356,43 @@ a{
 }
 .mainmenu--hidden{
   display: none;
+}
+.mini-gallery{
+  padding: 50px 0 100px;
+}
+.gallery-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.gallery-list--item {
+  width: 300px;
+  height: 230px;
+  position: relative;
+}
+.gallery-list--item img {
+  min-width: 100%;
+  height: auto;
+}
+.gallery-list--item span{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 300;
+  padding-left: 10px;
+  height: 115px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  transition: all 0.2s ease-in;
+}
+.gallery-list--item:hover span{
+  opacity: 1;
 }
 .order {
   padding-bottom: 57px;
@@ -477,4 +561,30 @@ button#btn_2:active{
 }
 .slogan1 h1 {
   margin-bottom: 68px;
+}
+.sockets{
+  padding: 110px 0 50px;
+}
+.after-blue{
+  text-align: center;
+  display: block;
+  color: #00c0ff;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.sockets img{
+  margin: 75px 0 50px;
+}
+.sockets button{
+  margin: 0 auto;
+  display: block;
+
+  background: url(../images/sockets/icon-eye.png) 166px center no-repeat, #00c0ff;
+  border: 1px solid #00c0ff;
+  color: #fff;
+}
+.sockets button:hover{
+  background: url(../images/sockets/icon-eye.png) 166px center no-repeat, #fdb302;
+  border: 1px solid #fdb302;
+  color: #fff;
 }
