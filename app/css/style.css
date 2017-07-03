@@ -155,6 +155,142 @@ div#plus3 {
   left: 1070px;
   
 }
+.call_designer{
+  padding: 90px 0 90px;
+  background: url(../images/design/bg.jpg) no-repeat;
+}
+.call_designer-form p::before {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  content: "•";
+  color: #00c0ff;
+}
+.call_designer-form p {
+  position: relative;
+  padding-left: 10px;
+  margin-left: 15px;
+}
+.call_designer-form h2{
+  color: #3f3f3f;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.call_designer-img{
+  margin-right: 25px;
+}
+.call_designer-wrap{
+  display: flex;
+  flex-direction: row;
+}
+#submit {
+  padding: 21px 55px 21px 35px;
+  color: #fff;
+  background: url(../images/icon-submit.png) 190px center no-repeat, #00c0ff;
+  font-size: 15px;
+  border: 0;
+  font-family: Roboto Condensed, sans-serif;
+  font-weight: 400;
+
+}
+#submit:hover,
+#submit:focus,
+#submit:active{
+  background: url(../images/icon-submit.png) 190px center no-repeat, #fdb302;
+}
+form#call_design {
+  display: flex;
+}
+#phone{
+  font-family: Roboto Condensed, sans-serif;
+  border: 0;
+  border-bottom: 1px solid #00c0ff;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 20px 10px 10px;
+  width: 400px;
+  margin-right: 30px;
+    background: transparent;
+}
+#phone::placeholder{
+  color: #a9a9a9;
+  font-weight: 300;
+}
+.form_h3{
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: #3f3f3f;
+  font-size: 21px;
+  font-weight: 400;
+}
+.form_h3 + span{
+  display: block;
+  margin-bottom: 35px;
+}
+.catalog--heading{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #efefef;
+}
+.catalog--heading h2{
+  font-size: 24px;
+  color: #3f3f3f;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to top, #3f3f3f, #656565), linear-gradient(#3f3f3f, #3f3f3f);
+}
+.catalog--filter{
+  padding: 30px 0 15px;
+  border-bottom: 1px solid #efefef;
+}
+.filter-row{
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.filter-name{
+  margin-right: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+.filter-name h4{
+  color: #3f3f3f;
+  font-size: 16px;
+  font-weight: 300;
+}
+.filter-list{
+  display: flex;
+}
+.filter-list input{
+  display: none;
+}
+.filter-list input:checked + label{
+  background-color: #fdb302;
+}
+.filter-list label{
+  display: block;
+  padding: 5px 10px;
+  margin-right: 15px;
+  font-size: 16px;
+  color: #3f3f3f;
+  font-weight: 300;
+  background-color: #ededed;
+  border-radius: 2px;
+}
+.filter-list label:hover{
+  cursor: pointer;
+}
+.filter-name::after {
+  position: absolute;
+  right: 0;
+  top: 1px;
+  content: "•";
+  color: #46c8ff;
+}
 .features{
   padding: 90px 0 100px;
 }
@@ -201,6 +337,51 @@ div#plus3 {
   text-transform: uppercase;
   text-align: center;
   margin-top: 30px;
+}
+.footer{
+  background: #414242;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+.footer p{
+  color: #9d9d9d;
+}
+.footer a img{
+  margin-bottom: 30px;
+}
+.social{
+  display: flex;
+  padding-top: 40px;
+}
+.social a img{
+  margin-right: 15px;
+}
+.footer-list{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-menu{
+  color: #fff;
+}
+.footer-menu li{
+  color: #9d9d9d;
+  list-style: none;
+  margin-top: 5px;
+}
+.footer-menu li a{
+  color: #9d9d9d;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 300;
+  position: relative;
+  padding-left: 8px;
+}
+.footer-menu li a::before {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  content: "•";
+  color: #9d9d9d;
 }
 *{
   padding: 0;
@@ -288,6 +469,12 @@ a{
   font-weight: 400;
   font-size: 14px;
 }
+
+/* CATALOG PAGE*/
+.header--cat{
+  background: url(../images/screen2.jpg) no-repeat;
+}
+
 .mainmenu,
 .submenu{
   background-color: #c5a176;
@@ -360,6 +547,9 @@ a{
 .mini-gallery{
   padding: 50px 0 100px;
 }
+.mini-gallery h2{
+  margin-bottom: 70px;
+}
 .gallery-list{
   display: flex;
   flex-direction: row;
@@ -368,6 +558,7 @@ a{
 .gallery-list--item {
   width: 300px;
   height: 230px;
+  overflow: hidden;
   position: relative;
 }
 .gallery-list--item img {

@@ -1,0 +1,72 @@
+.call_designer{
+  padding: 90px 0 90px;
+  background: url(../images/design/bg.jpg) no-repeat;
+}
+.call_designer-form p::before {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  content: "•";
+  color: #00c0ff;
+}
+.call_designer-form p {
+  position: relative;
+  padding-left: 10px;
+  margin-left: 15px;
+}
+.call_designer-form h2{
+  color: #3f3f3f;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.call_designer-img{
+  margin-right: 25px;
+}
+.call_designer-wrap{
+  display: flex;
+  flex-direction: row;
+}
+#submit {
+  padding: 21px 55px 21px 35px;
+  color: #fff;
+  background: url(../images/icon-submit.png) 190px center no-repeat, #00c0ff;
+  font-size: 15px;
+  border: 0;
+  font-family: Roboto Condensed, sans-serif;
+  font-weight: 400;
+
+}
+#submit:hover,
+#submit:focus,
+#submit:active{
+  background: url(../images/icon-submit.png) 190px center no-repeat, #fdb302;
+}
+form#call_design {
+  display: flex;
+}
+#phone{
+  font-family: Roboto Condensed, sans-serif;
+  border: 0;
+  border-bottom: 1px solid #00c0ff;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 20px 10px 10px;
+  width: 400px;
+  margin-right: 30px;
+    background: transparent;
+}
+#phone::placeholder{
+  color: #a9a9a9;
+  font-weight: 300;
+}
+.form_h3{
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: #3f3f3f;
+  font-size: 21px;
+  font-weight: 400;
+}
+.form_h3 + span{
+  display: block;
+  margin-bottom: 35px;
+}

@@ -1,6 +1,9 @@
 .mini-gallery{
   padding: 50px 0 100px;
 }
+.mini-gallery h2{
+  margin-bottom: 70px;
+}
 .gallery-list{
   display: flex;
   flex-direction: row;
@@ -9,6 +12,7 @@
 .gallery-list--item {
   width: 300px;
   height: 230px;
+  overflow: hidden;
   position: relative;
 }
 .gallery-list--item img {

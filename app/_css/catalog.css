@@ -1,0 +1,64 @@
+.catalog--heading{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #efefef;
+}
+.catalog--heading h2{
+  font-size: 24px;
+  color: #3f3f3f;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to top, #3f3f3f, #656565), linear-gradient(#3f3f3f, #3f3f3f);
+}
+.catalog--filter{
+  padding: 30px 0 15px;
+  border-bottom: 1px solid #efefef;
+}
+.filter-row{
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.filter-name{
+  margin-right: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+.filter-name h4{
+  color: #3f3f3f;
+  font-size: 16px;
+  font-weight: 300;
+}
+.filter-list{
+  display: flex;
+}
+.filter-list input{
+  display: none;
+}
+.filter-list input:checked + label{
+  background-color: #fdb302;
+}
+.filter-list label{
+  display: block;
+  padding: 5px 10px;
+  margin-right: 15px;
+  font-size: 16px;
+  color: #3f3f3f;
+  font-weight: 300;
+  background-color: #ededed;
+  border-radius: 2px;
+}
+.filter-list label:hover{
+  cursor: pointer;
+}
+.filter-name::after {
+  position: absolute;
+  right: 0;
+  top: 1px;
+  content: "•";
+  color: #46c8ff;
+}

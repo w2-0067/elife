@@ -26,3 +26,8 @@
   font-weight: 400;
   font-size: 14px;
 }
+
+/* CATALOG PAGE*/
+.header--cat{
+  background: url(../images/screen2.jpg) no-repeat;
+}
