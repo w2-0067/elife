@@ -27,6 +27,8 @@
   margin-right: 30px;
   padding-right: 30px;
   position: relative;
+  text-align: right;
+  width: 170px;
 }
 .filter-name h4{
   color: #3f3f3f;
@@ -39,7 +41,7 @@
 .filter-list input{
   display: none;
 }
-.filter-list input:checked + label{
+.filter-list input.default-checkbox:checked + label{
   background-color: #fdb302;
 }
 .filter-list label{
@@ -49,7 +51,7 @@
   font-size: 16px;
   color: #3f3f3f;
   font-weight: 300;
-  background-color: #ededed;
+ /* background-color: #ededed; */
   border-radius: 2px;
 }
 .filter-list label:hover{
@@ -61,4 +63,49 @@
   top: 1px;
   content: "•";
   color: #46c8ff;
+}
+.color-checkbox + label{
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: 1px solid #c5a175;
+}
+.filter-list input.default-checkbox.color-checkbox:checked + label{
+  outline: 2px solid #fdb302;
+  background-color: initial;
+}
+.catalog--content{
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.catalog--content--item img{
+  margin-bottom: 25px;
+}
+.catalog--content--item{
+  position: relative;
+  padding: 5px;
+  margin-bottom: 40px;
+  padding-bottom: 25px;
+}
+.catalog--content--item:hover::after{
+  position: absolute;
+  right: 50px;
+  bottom: 45px;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background: url(../images/content/icon-in.png) no-repeat;
+
+}
+.catalog--content--item:hover{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+.catalog--content--item p{
+  padding: 5px;
+}
+.catalog--content--item p span{
+  font-weight: 400;
 }
