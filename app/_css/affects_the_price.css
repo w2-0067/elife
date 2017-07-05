@@ -2,12 +2,14 @@
   height: 868px;
   background: url(../images/affects_the_price/bg.jpg) center no-repeat;
   padding-top: 80px;
+}
+.affects_the_price .container{
   position: relative;
 }
 .right-text-block {
   position: absolute;
-  top: 300px;
-  right: 400px;
+  top: 220px;
+  right: 55px;
 }
 .right-text-block h3{
   font-size: 24px;
@@ -73,32 +75,32 @@ span.plus-text.active-text{
   z-index: 1;
 }
 div#plus1 {
-  top: 330px;
-  left: 660px;
+  top: 250px;
+  left: 315px;
 
 }
 div#plus2 {
-  top: 470px;
-  left: 780px;
+  top: 390px;
+  left: 435px;
 
 }
 div#plus3 {
-  top: 525px;
-  left: 465px;
+  top: 445px;
+  left: 120px;
 
 }
 #plus4 {
-  top: 570px;
-  left: 680px;
+  top: 490px;
+  left: 335px;
  
 }
 #plus5 {
-  top: 610px;
-  left: 882px;
+  top: 530px;
+  left: 537px;
  
 }
 #plus6 {
-  top: 650px;
-  left: 1070px;
+  top: 570px;
+  left: 725px;
   
 }

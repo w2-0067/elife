@@ -9,6 +9,12 @@ gulp.task('concat', function () {
     .pipe(gulp.dest('app/css/'))
 	.pipe(reload({stream:true}));
   });
+  gulp.task('concat-m', function () {
+    return gulp.src('app/_media/*.css')
+    .pipe(concat('media.css'))
+    .pipe(gulp.dest('app/css/'))
+	.pipe(reload({stream:true}));
+  });
 gulp.task('browser-sync', function () {
   browserSync({
     server: {
@@ -19,6 +25,7 @@ gulp.task('browser-sync', function () {
 });
 gulp.task('watch', function () {
   gulp.watch('app/_css/*.css', ['concat']);
+  gulp.watch('app/_media/*.css' , ['concat-m']);
   gulp.watch('app/*.html' , reload);
   gulp.watch('app/js/*.js' , reload);
 });

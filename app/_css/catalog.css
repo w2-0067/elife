@@ -1,7 +1,6 @@
 .catalog--heading{
   padding-top: 60px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #efefef;
 }
 .catalog--heading h2{
   font-size: 24px;
@@ -14,9 +13,10 @@
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to top, #3f3f3f, #656565), linear-gradient(#3f3f3f, #3f3f3f);
 }
-.catalog--filter{
+.catalog--filter {
   padding: 30px 0 15px;
   border-bottom: 1px solid #efefef;
+  border-top: 1px solid #efefef;
 }
 .filter-row{
   display: flex;

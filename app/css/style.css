@@ -55,12 +55,14 @@ span.strong{
   height: 868px;
   background: url(../images/affects_the_price/bg.jpg) center no-repeat;
   padding-top: 80px;
+}
+.affects_the_price .container{
   position: relative;
 }
 .right-text-block {
   position: absolute;
-  top: 300px;
-  right: 400px;
+  top: 220px;
+  right: 55px;
 }
 .right-text-block h3{
   font-size: 24px;
@@ -126,34 +128,78 @@ span.plus-text.active-text{
   z-index: 1;
 }
 div#plus1 {
-  top: 330px;
-  left: 660px;
+  top: 250px;
+  left: 315px;
 
 }
 div#plus2 {
-  top: 470px;
-  left: 780px;
+  top: 390px;
+  left: 435px;
 
 }
 div#plus3 {
-  top: 525px;
-  left: 465px;
+  top: 445px;
+  left: 120px;
 
 }
 #plus4 {
-  top: 570px;
-  left: 680px;
+  top: 490px;
+  left: 335px;
  
 }
 #plus5 {
-  top: 610px;
-  left: 882px;
+  top: 530px;
+  left: 537px;
  
 }
 #plus6 {
-  top: 650px;
-  left: 1070px;
+  top: 570px;
+  left: 725px;
   
+}
+.box-menu-wrap{
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 80px;
+}
+.box-menu-item{
+  height: 305px;
+  width: 50%;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 105px;
+  flex-direction: column;
+  justify-content: center;
+}
+.box-menu-item a{
+  position: relative;
+  display: block;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-bottom: 14px;
+  border-bottom: 1px dashed #fff;
+}
+.box-menu-item:nth-child(1){
+  background-image: url(../images/content/box-menu1.jpg);
+}
+.box-menu-item:nth-child(2){
+  background-image: url(../images/content/box-menu2.jpg);
+}
+.box-menu-item:nth-child(3){
+  background-image: url(../images/content/box-menu3.jpg);
+}
+.box-menu-item:nth-child(4){
+  background-image: url(../images/content/box-menu4.jpg);
+}
+.box-menu-item a::before {
+  position: absolute;
+  left: -15px;
+  top: 1px;
+  content: "•";
+  color: #fff;
 }
 .call_designer{
   padding: 90px 0 90px;
@@ -183,7 +229,7 @@ div#plus3 {
   display: flex;
   flex-direction: row;
 }
-#submit {
+.submit {
   padding: 21px 55px 21px 35px;
   color: #fff;
   background: url(../images/icon-submit.png) 190px center no-repeat, #00c0ff;
@@ -193,15 +239,15 @@ div#plus3 {
   font-weight: 400;
 
 }
-#submit:hover,
-#submit:focus,
-#submit:active{
+.submit:hover,
+.submit:focus,
+.submit:active{
   background: url(../images/icon-submit.png) 190px center no-repeat, #fdb302;
 }
 form#call_design {
   display: flex;
 }
-#phone{
+.phone{
   font-family: Roboto Condensed, sans-serif;
   border: 0;
   border-bottom: 1px solid #00c0ff;
@@ -210,9 +256,9 @@ form#call_design {
   padding: 20px 10px 10px;
   width: 400px;
   margin-right: 30px;
-    background: transparent;
+  background: transparent;
 }
-#phone::placeholder{
+.phone::placeholder{
   color: #a9a9a9;
   font-weight: 300;
 }
@@ -227,10 +273,66 @@ form#call_design {
   display: block;
   margin-bottom: 35px;
 }
+.call_designer2{
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+.call_designer2 h2{
+  margin-bottom: 60px;
+}
+.call_designer2 h3{
+  color: #3f3f3f;
+    -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to top, #3f3f3f, #656565), linear-gradient(#3f3f3f, #3f3f3f);
+  margin-bottom: 12px;
+}
+.call_designer2-wrap{
+  display: flex;
+}
+.call_designer2-left{
+  margin-right: 30px;
+}
+.call_designer2-list{
+  padding-bottom: 50px;
+}
+.call_designer2-list p {
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 12px;
+}
+.call_designer2-list p::before {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  content: "•";
+  color: #00c0ff;
+}
+#call_design2{
+  display: flex;
+  padding-top: 35px;
+}
+#call_design2 input{
+  width: calc(50% - 10px);
+}
+#phone2{
+  padding-left: 0;
+}
+#submit2{
+  padding: 15px 15px 15px 30px;
+  display: block;
+  color: #fff;
+  background: url(../images/content/icon-phone.png) 15px center no-repeat, #00c0ff;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: 0;
+  font-family: Roboto Condensed, sans-serif;
+  font-weight: 400;
+}
 .catalog--heading{
   padding-top: 60px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #efefef;
 }
 .catalog--heading h2{
   font-size: 24px;
@@ -243,9 +345,10 @@ form#call_design {
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to top, #3f3f3f, #656565), linear-gradient(#3f3f3f, #3f3f3f);
 }
-.catalog--filter{
+.catalog--filter {
   padding: 30px 0 15px;
   border-bottom: 1px solid #efefef;
+  border-top: 1px solid #efefef;
 }
 .filter-row{
   display: flex;
@@ -432,6 +535,78 @@ form#call_design {
 .item-view-options {
   padding-bottom: 40px;
 }
+.send_request{
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-transform: uppercase;
+  height: 70px;
+  display: block;
+  width: 100%;
+  border: 0;
+  margin-bottom: 70px;
+  background: url(../images/content/icon-send.png) 50px center no-repeat, #46c8ff;
+}
+.send_request:hover{
+    background: url(../images/content/icon-send.png) 50px center no-repeat, #fdb302;
+    cursor: pointer;
+}
+.promotion .container{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.promotion_block{
+  width: calc(50% - 15px);
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.promotion_block:first-child{
+  background: url(../images/content/promo1.jpg) no-repeat;
+  background-size: cover;
+}
+.promotion_block p{
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  
+}
+.promotion_block:first-child p:before{
+  background: url(../images/content/icon-info.png) no-repeat;
+  content: "";
+  display: block;
+  height: 46px;
+  width: 46px;
+  margin-right: 15px;
+}
+.promotion_block:last-child{
+  background: url(../images/content/promo2.jpg) no-repeat;
+  background-size: cover;
+}
+.promotion_block:last-child p:before{
+  background: url(../images/content/icon-wp.png) no-repeat;
+  content: "";
+  display: block;
+  height: 54px;
+  width: 54px;
+  margin-right: 25px;
+}
+.promotion_block:last-child p:after{
+  background: url(../images/content/promo2_qrc.png) no-repeat;
+  content: "";
+  display: block;
+  height: 105px;
+  width: 105px;
+  margin-left: 25px;
+}
+
 .features{
   padding: 90px 0 100px;
 }
@@ -613,7 +788,7 @@ a{
 
 /* CATALOG PAGE*/
 .header--cat{
-  background: url(../images/screen2.jpg) no-repeat;
+  background: url(../images/screen2.jpg) center top no-repeat;
 }
 
 .mainmenu,

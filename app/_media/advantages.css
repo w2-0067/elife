@@ -1,0 +1,19 @@
+@media (min-width: 414px){
+  .cat_mini {
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+  }
+  .cat__info {
+    padding: 10px;
+    margin: -10px ;
+  }
+  .advantages__heading {
+    margin-top: 40px;
+  }
+  .advantages__list__item {
+    width: 100%;
+  }
+  .advantages__list__item span {
+    margin-bottom: 25px;
+  }
+}

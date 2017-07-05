@@ -1,0 +1,90 @@
+@media (min-width: 414px){
+  .header{
+    height: initial;
+    order: 4;
+  }
+  .mainmenu--hidden{
+    display: block;
+  }
+  .mainmenu.mainmenu--hidden {
+    padding: 10px;
+  }
+  .mobile-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c5a176;
+    padding: 10px;
+    order: 1;
+  }
+  .mainmenu{
+    order: 2;
+  }
+  .submenu{
+    order: 3;
+  }
+  .mainmenu,
+  .submenu{
+    display: none;
+  }
+   .mainmenu.open-mob,
+  .submenu.open-mob{
+    display: block;
+  }
+  .container.flex{
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainmenu-conteiner, .nav2{
+    width: 100%;
+  }
+  .mainmenu-conteiner {
+  flex-direction: column;
+}
+  .header_logo, .mainmenu_sub-list-item{
+    display: none;
+  }
+  .header_text{
+    margin: 0;
+  }
+  .header_text span {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .header_contact {
+    margin-top: 28px;
+    text-align: center;
+  }
+  .slogan1{
+    padding-bottom: 50px;
+    order: 5;
+    background: url(../images/m-screen.jpg) no-repeat;
+    background-position-y: 84px;
+  }
+  .slogan1 h1{
+    font-size: 30px;
+    margin-bottom: 58px;
+  }
+  .slogan1 h1 .lite{
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  .yellow{
+    font-size: 30px;
+  }
+  button#btn_1,
+  button#btn_2{
+    margin: auto;
+    display: block;
+  }
+  button#btn_1{
+    margin-bottom: 30px;
+  }
+  .mouse {
+    display: none;
+  }
+
+}  

@@ -92,3 +92,74 @@
 .item-view-options {
   padding-bottom: 40px;
 }
+.send_request{
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-transform: uppercase;
+  height: 70px;
+  display: block;
+  width: 100%;
+  border: 0;
+  margin-bottom: 70px;
+  background: url(../images/content/icon-send.png) 50px center no-repeat, #46c8ff;
+}
+.send_request:hover{
+    background: url(../images/content/icon-send.png) 50px center no-repeat, #fdb302;
+    cursor: pointer;
+}
+.promotion .container{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.promotion_block{
+  width: calc(50% - 15px);
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.promotion_block:first-child{
+  background: url(../images/content/promo1.jpg) no-repeat;
+  background-size: cover;
+}
+.promotion_block p{
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  
+}
+.promotion_block:first-child p:before{
+  background: url(../images/content/icon-info.png) no-repeat;
+  content: "";
+  display: block;
+  height: 46px;
+  width: 46px;
+  margin-right: 15px;
+}
+.promotion_block:last-child{
+  background: url(../images/content/promo2.jpg) no-repeat;
+  background-size: cover;
+}
+.promotion_block:last-child p:before{
+  background: url(../images/content/icon-wp.png) no-repeat;
+  content: "";
+  display: block;
+  height: 54px;
+  width: 54px;
+  margin-right: 25px;
+}
+.promotion_block:last-child p:after{
+  background: url(../images/content/promo2_qrc.png) no-repeat;
+  content: "";
+  display: block;
+  height: 105px;
+  width: 105px;
+  margin-left: 25px;
+}

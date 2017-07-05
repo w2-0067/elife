@@ -1,0 +1,8 @@
+@media (min-width: 414px){
+  ul.nav1,
+  ul.nav2{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}

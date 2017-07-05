@@ -1,0 +1,19 @@
+@media (min-width: 414px){
+  .order h2 {
+    padding-bottom: 30px;
+    padding-top: 0px;
+  }
+  .order-list {
+    flex-wrap: wrap;
+  }
+  .order-card {
+    margin: 0 auto 30px;
+    min-height: initial;
+  }
+  .affects_the_price{
+    display: none;
+  }
+  .order{
+    padding-bottom: 0;
+  }
+}
