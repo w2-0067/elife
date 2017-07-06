@@ -1,4 +1,4 @@
-@media (min-width: 414px){
+@media (max-width: 414px){
   .header{
     height: initial;
     order: 4;

@@ -1,4 +1,4 @@
-@media (min-width: 414px){
+@media (max-width: 414px){
   ul.nav1,
   ul.nav2{
     width: 100%;

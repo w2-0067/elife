@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
     browserSync = require('browser-sync'),
-	concat = require('gulp-concat');
+	concat = require('gulp-concat'),
+	combineMq = require('gulp-combine-mq');
 	reload = browserSync.reload;
 
 gulp.task('concat', function () {
@@ -12,6 +13,9 @@ gulp.task('concat', function () {
   gulp.task('concat-m', function () {
     return gulp.src('app/_media/*.css')
     .pipe(concat('media.css'))
+	.pipe(combineMq({
+        beautify: false
+    }))
     .pipe(gulp.dest('app/css/'))
 	.pipe(reload({stream:true}));
   });

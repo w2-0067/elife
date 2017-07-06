@@ -1,4 +1,4 @@
-@media (min-width: 414px){
+@media (max-width: 414px){
   .filter-row {
     flex-direction: column;
     align-items: flex-start;
