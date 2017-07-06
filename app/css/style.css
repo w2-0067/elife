@@ -757,6 +757,7 @@ a{
   border: 1px solid #00c0ff;
   color: #fff;
 }
+
 .flex{
   display: flex;
   flex-flow: row no-wrap;
@@ -789,8 +790,14 @@ a{
 /* CATALOG PAGE*/
 .header--cat{
   background: url(../images/screen2.jpg) center top no-repeat;
+  background-size: cover;
 }
-
+.mainmenu_sub-list-item.mob-only{
+  display: none;
+}
+img.hamburger:hover{
+  cursor: pointer;
+}
 .mainmenu,
 .submenu{
   background-color: #c5a176;

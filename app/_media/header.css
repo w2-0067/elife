@@ -86,5 +86,28 @@
   .mouse {
     display: none;
   }
-
+  .catalog--heading {
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+  .catalog--heading h2{
+    text-align: center;
+  }
+  .mainmenu_sub-list-item.mob-only{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #c5a175;
+    width: 100%;
+    order: 6;
+  }
+  .mainmenu_sub-list-item.mob-only a{
+    width: 75%;
+    border-left: 0;
+    margin: 0;
+    padding: 20px;
+  }
+  .mainmenu_sub-list-item.mob-only a:first-child{
+    border-bottom: 1px dotted #fff;
+  }
 }  

@@ -30,4 +30,11 @@
 /* CATALOG PAGE*/
 .header--cat{
   background: url(../images/screen2.jpg) center top no-repeat;
+  background-size: cover;
+}
+.mainmenu_sub-list-item.mob-only{
+  display: none;
+}
+img.hamburger:hover{
+  cursor: pointer;
 }

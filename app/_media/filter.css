@@ -1,0 +1,27 @@
+@media (min-width: 414px){
+  .filter-row {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .filter-list {
+    flex-wrap: wrap;
+  }
+  .filter-name {
+    margin-right: 0;
+    padding-right: 0;
+    position: relative;
+    text-align: left;
+    width: auto;
+  }
+  .filter-name h4{
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+  .filter-name::after{
+    display: none;
+  }
+  .catalog--content--item {
+    margin: auto;
+  }
+}

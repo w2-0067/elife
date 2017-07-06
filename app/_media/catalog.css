@@ -1,0 +1,23 @@
+@media (min-width: 414px){
+  .item-view {
+    flex-direction: column;
+  }
+  .item-view-right, .item-view-left {
+    width: 100%;
+    padding: 0;
+  }
+  .item-view-options {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .item-view-filter-list {
+    justify-content: center;
+  }
+  .send_request {
+    background: #46c8ff;
+    margin-bottom: 0;
+  }
+  .send_request:hover {
+    background: #fdb302;
+  }
+}
