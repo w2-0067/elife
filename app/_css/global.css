@@ -56,3 +56,12 @@ a{
   border: 1px solid #00c0ff;
   color: #fff;
 }
+#up {
+  background: url(../images/up.png) no-repeat;
+  height: 44px;
+  width: 44px;
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

@@ -1,19 +1,26 @@
 var gulp = require('gulp'),
     browserSync = require('browser-sync'),
 	concat = require('gulp-concat'),
-	combineMq = require('gulp-combine-mq');
+	combineMq = require('gulp-combine-mq'),
+  autoprefixer = require('gulp-autoprefixer'),
 	reload = browserSync.reload;
 
 gulp.task('concat', function () {
     return gulp.src('app/_css/*.css')
     .pipe(concat('style.css'))
+    .pipe(autoprefixer({
+            cascade: false
+        }))
     .pipe(gulp.dest('app/css/'))
 	.pipe(reload({stream:true}));
   });
   gulp.task('concat-m', function () {
     return gulp.src('app/_media/*.css')
     .pipe(concat('media.css'))
-	.pipe(combineMq({
+    .pipe(autoprefixer({
+            cascade: false
+        }))
+	  .pipe(combineMq({
         beautify: false
     }))
     .pipe(gulp.dest('app/css/'))

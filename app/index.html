@@ -458,31 +458,38 @@
       </div>
     </div>
   </div>
-  <div class="modal">
+  <div class="modal hide-modal">
     <div class="modal-overlay">
       <div class="modal-wrap">
         <span class="close"></span>
         <p class="header-text">Что бы сделать заказ позвоните по телефону<br><span>8 (4812) 566-590</span><br>или заполните форму, после чего Вам перезвонит наш дизайнер</p>
         <form id="form3" enctype="multipart/form-data">
           <input id="form3_name" type="text" placeholder="Имя" required>
-          <input id="form3_phone" type="number" placeholder="Телефон:" required>
+          <input id="form3_phone" type="tel" placeholder="Телефон:" required>
           <textarea id="form3_message" placeholder="Сообщение:" name="" cols="30" rows="3"></textarea>
           <div class="form-row">
+            <input type="file" name="file[]" multiple id="form3_file" accept="image/*" >
+            <label class="upfile" for="form3_file">Прикрепить изображение</label>
+            <div class="upfile-desc">Файл не выбран</div>
+          </div>
+          <div class="form-row agreement-row">
             <input id="form3_agreement" type="checkbox" required>
             <label for="form3_agreement">Согласие на обработку персональных данных</label>
           </div>
-          <div class="form-row">
-            <input type="file" name="file[]" multiple id="form3_file" accept="image/*" >
-            <label class="upfile" for="file">Прикрепить изображение</label>
-            <input id="form3_submit" type="submit" value="Отправить">
-          </div>
+          <input id="form3_submit" type="submit" value="Отправить">
         </form>
         <span class="lock_text">Ваши данные не будут переданы третьим лицам</span>
       </div>
     </div>
   </div>
+  <div class="data_collection hide-modal">
+    <span>Используя наш сайт, вы соглашаетесь с тем, что мы можем хранить куки (cookies) вашего браузера. <a href="#">Политика конфиденциальности</a></span>
+    <button class="close_data_collection">Соглашаюсь</button>
+  </div>
+  <span id="up"></span>
   <!-- scripts -->
   <script src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/cookie.js"></script>
   <script src="js/common.js"></script>
   </body>
 </html>

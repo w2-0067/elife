@@ -1,0 +1,15 @@
+@media (max-width: 414px){
+  .data_collection {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .data_collection span {
+    padding: 20px 10px;
+  }
+  .data_collection span a {
+    margin: 15px auto;
+    display: block;
+    width: 60%;
+  }
+}
